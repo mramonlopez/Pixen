@@ -161,4 +161,11 @@
 	[self runModalPrintOperation:op delegate:nil didRunSelector:NULL contextInfo:NULL];
 }
 
+- (void)runModalSavePanelForSaveOperation:(NSSaveOperationType)saveOperation delegate:(nullable id)delegate didSaveSelector:(nullable SEL)didSaveSelector contextInfo:(nullable void *)contextInfo
+{
+    NSLog(@"***********************************");
+}
+
+
+
 @end

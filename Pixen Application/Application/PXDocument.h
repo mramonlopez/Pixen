@@ -28,4 +28,5 @@
 - (NSString *)lastSavedFileTypeKey;
 - (NSString *)defaultFileType;
 
+- (void)runModalSavePanelForSaveOperation:(NSSaveOperationType)saveOperation delegate:(nullable id)delegate didSaveSelector:(nullable SEL)didSaveSelector contextInfo:(nullable void *)contextInfo;
 @end
